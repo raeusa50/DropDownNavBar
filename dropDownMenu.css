@@ -1,0 +1,38 @@
+
+
+
+.dropdown {
+    border: solid 1px red;
+    width: 60px;
+    
+}
+
+.dropdown-buttons{
+    display: none;
+}
+
+.dropdown:hover .dropdown-buttons{
+    display: flex; 
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.button {
+    background-color: blueviolet;
+    color:aliceblue;
+    padding: 5px;
+    width: 60px;
+    border: none;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menuDrop{
+    display:none;
+}
+
+.menu:hover .menuDrop{
+    display: block;
+    background-color: brown;
+}
